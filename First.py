@@ -19,5 +19,6 @@ df.tail(n=2)
 print (df)
 cities = df['city']
 print (df)
+df.city
 
 
