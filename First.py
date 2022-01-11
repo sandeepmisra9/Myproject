@@ -19,6 +19,17 @@ header = df.tail(n=2)
 print (header)
 cities = df['city']
 print (cities)
+header = df.city
+print (header)
+#header = df.city[102]
+print (header)
+header = cities[102]
+print (header)
+header = df.loc[103]
+print (header)
+
+
+
 
 
 
