@@ -13,3 +13,4 @@ row_labels = [101, 102, 103, 104, 105, 106, 107]
 # how to convert a data frame
 df = pd.DataFrame(data=data, index=row_labels)
 print(df)
+df.head(n=2)
