@@ -14,3 +14,7 @@ row_labels = [101, 102, 103, 104, 105, 106, 107]
 df = pd.DataFrame(data=data, index=row_labels)
 print(df)
 df.head(n=2)
+print (df)
+df.tail(n=2)
+print (df)
+
