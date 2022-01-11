@@ -20,3 +20,4 @@ print (df)
 cities = df['city']
 print (df)
 
+
