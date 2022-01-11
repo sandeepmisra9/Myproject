@@ -17,4 +17,6 @@ df.head(n=2)
 print (df)
 df.tail(n=2)
 print (df)
+cities = df['city']
+print (df)
 
