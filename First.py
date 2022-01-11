@@ -15,8 +15,8 @@ df = pd.DataFrame(data=data, index=row_labels)
 #print(df)
 header = df.head(n=2)
 print (header)
-df.tail(n=2)
-#print (df)
+header = df.tail(n=2)
+print (header)
 cities = df['city']
 print (cities)
 
