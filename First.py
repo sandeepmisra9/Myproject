@@ -33,9 +33,12 @@ d = {'x': [1, 2, 3], 'y': np.array([2, 4, 8]), 'z': 100}
 l = [{'x': 1, 'y': 2, 'z': 100},
 {'x': 2, 'y': 4, 'z': 100},
 {'x': 3, 'y': 8, 'z': 100}]
-print ('now printing l\n',pd.DataFrame(l))
 
-
+arr = np.array([[1, 2, 100],
+[2, 4, 100],
+[3, 8, 100]])
+sandeep= pd.DataFrame (arr , columns=['love','Nidi','Vardha'])
+print ('now printing sandeep\n', sandeep['love'])
 
 
 
